@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TabBarC.h"
 
-@class ViewController;
+@class TabBarC;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) TabBarC *tabController;
 
 @end
